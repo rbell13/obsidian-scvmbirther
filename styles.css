@@ -1,0 +1,6 @@
+.scvmbirther-import {
+	box-sizing: border-box;
+	min-height: 16rem;
+	resize: vertical;
+	width: 100%;
+}
