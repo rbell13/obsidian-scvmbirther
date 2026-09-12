@@ -8,10 +8,10 @@ The plugin opens the official generator rather than copying its source code, con
 
 1. Run **SCVM Birther: Open SCVMBIRTHER generator** or select the skull ribbon icon.
 2. Generate a character on SCVMBIRTHER.
-3. Copy the visible character text.
+3. Press **Ctrl+A, Ctrl+C** on Windows/Linux or **Cmd+A, Cmd+C** on macOS to copy the page. SCVMBIRTHER does not have a copy button.
 4. Run **SCVM Birther: Create character note from clipboard**.
 
-If clipboard access is unavailable, a paste window opens automatically. You can also paste text into an existing note, select it, and run **SCVM Birther: Format selection as character Markdown**.
+The importer ignores unrelated page text and extracts the generated character. If clipboard access is unavailable, a paste window opens automatically. You can also paste text into an existing note, select it, and run **SCVM Birther: Format selection as character Markdown**.
 
 The parser recognizes labels such as `Name`, `Class`, `HP`, `Omens`, `Abilities`, `Description`, `Powers`, `Equipment`, `Traits`, `Habits`, and `Tales`. Because SCVMBIRTHER does not currently expose a public generation API or Markdown export, its copied page text may require minor cleanup before importing.
 
