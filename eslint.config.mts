@@ -6,6 +6,7 @@ export default defineConfig(
 		"node_modules",
 		"main.js",
 		"esbuild.config.mjs",
+		"install-local.mjs",
 		"version-bump.mjs",
 		"versions.json",
 		"package.json",

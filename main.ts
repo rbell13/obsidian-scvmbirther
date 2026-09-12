@@ -7,6 +7,7 @@ import {
 	PluginSettingTab,
 	Setting,
 	normalizePath,
+	type SettingDefinitionItem,
 } from "obsidian";
 import { characterToMarkdown, parseCharacterText } from "./character";
 
@@ -151,6 +152,33 @@ class CharacterImportModal extends Modal {
 class ScvmBirtherSettingTab extends PluginSettingTab {
 	constructor(app: App, private readonly plugin: ScvmBirtherPlugin) {
 		super(app, plugin);
+	}
+
+	getSettingDefinitions(): SettingDefinitionItem[] {
+		return [
+			{
+				name: "Character folder",
+				desc: "Vault folder for imported character notes. Leave empty for the vault root.",
+				control: {
+					type: "folder",
+					key: "characterFolder",
+					defaultValue: DEFAULT_SETTINGS.characterFolder,
+					placeholder: "Characters",
+					includeRoot: true,
+				},
+			},
+		];
+	}
+
+	getControlValue(key: string): unknown {
+		return key === "characterFolder" ? this.plugin.settings.characterFolder : undefined;
+	}
+
+	async setControlValue(key: string, value: unknown): Promise<void> {
+		if (key === "characterFolder" && typeof value === "string") {
+			this.plugin.settings.characterFolder = value;
+			await this.plugin.saveSettings();
+		}
 	}
 
 	display(): void {

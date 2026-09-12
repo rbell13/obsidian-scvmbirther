@@ -38,7 +38,10 @@ Requires Node.js and npm.
 ```sh
 npm ci
 npm run check
+npm run install:local -- /path/to/your/vault
 ```
+
+The local installer builds the plugin and copies its three runtime files into the vault. Reload Obsidian, then enable **SCVM Birther** under **Settings → Community plugins**.
 
 ## Credits and license
 
