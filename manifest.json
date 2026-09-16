@@ -1,9 +1,9 @@
 {
 	"id": "scvmbirther",
 	"name": "SCVM Birther",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"minAppVersion": "1.4.0",
-	"description": "Generate MÖRK BORG-compatible characters as polished Markdown notes.",
+	"description": "Import MÖRK BORG tabletop RPG characters as polished Markdown notes.",
 	"author": "rbell13",
 	"authorUrl": "https://github.com/rbell13",
 	"isDesktopOnly": false
