@@ -53,4 +53,6 @@ SCVM Birther is an independent production by Roland Bell and is not affiliated w
 
 MÖRK BORG is copyright Ockult Örtmästare Games and Stockholm Kartell.
 
+Source: [GitHub](https://github.com/rbell13/obsidian-scvmbirther) · Support: [Ko-fi](https://ko-fi.com/roland14)
+
 The plugin source code is available under the [MIT License](LICENSE).

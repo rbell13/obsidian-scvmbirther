@@ -1,7 +1,7 @@
 {
 	"name": "obsidian-scvmbirther",
 	"version": "0.1.3",
-	"description": "Import MÖRK BORG tabletop RPG characters as polished Markdown notes in Obsidian.",
+	"description": "Import MÖRK BORG tabletop RPG characters as polished Markdown notes in Obsidian. Source: github.com/rbell13/obsidian-scvmbirther. Support: ko-fi.com/roland14.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
