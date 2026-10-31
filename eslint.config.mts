@@ -26,4 +26,15 @@ export default defineConfig(
 		},
 	},
 	...obsidianmd.configs.recommended,
+	{
+		rules: {
+			"obsidianmd/ui/sentence-case": [
+				"warn",
+				{
+					brands: ["SCVMBIRTHER", "MÖRK BORG", "Markdown"],
+					acronyms: ["HP"],
+				},
+			],
+		},
+	},
 );
