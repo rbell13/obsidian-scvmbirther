@@ -1,9 +1,9 @@
 {
 	"id": "scvmbirther",
 	"name": "SCVM Birther",
-	"version": "0.1.4",
-	"minAppVersion": "1.4.0",
-	"description": "Import MÖRK BORG tabletop RPG characters as polished Markdown notes. Source: github.com/rbell13/obsidian-scvmbirther. Support: ko-fi.com/roland14.",
+	"version": "0.1.5",
+	"minAppVersion": "1.5.1",
+	"description": "Import MÖRK BORG tabletop RPG characters as polished Markdown notes.",
 	"author": "rbell13",
 	"authorUrl": "https://github.com/rbell13",
 	"fundingUrl": "https://ko-fi.com/roland14",
